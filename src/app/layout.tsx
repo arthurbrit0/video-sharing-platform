@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope } from 'next/font/google';
 import { ClerkProvider } from '@clerk/nextjs';
 import { ThemeProvider } from "@/components/theme";
+import './globals.css'
 
 const manrope = Manrope({
   subsets: ['latin']
